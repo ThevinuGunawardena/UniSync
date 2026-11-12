@@ -6,9 +6,9 @@ UniSync 2.0 is a modern, responsive academic management platform designed for st
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### 1. 🎓 Student Experience
+### 1. Student Experience
 - **Smart Academic Dashboard:** Live overview of upcoming deadlines, weekly schedule, cumulative GPA, and course credits.
 - **Advanced GPA Calculator & Course Manager:**
   - Track individual semesters and course grades.
@@ -26,25 +26,25 @@ UniSync 2.0 is a modern, responsive academic management platform designed for st
 - **Academic Calculator:** Safe arithmetic evaluator with calculation history tape.
 - **Quick Shortcuts:** Direct access to Student Outlook Webmail and Google Classroom.
 
-### 2. 👨‍🏫 Lecturer Portal
+### 2. Lecturer Portal
 - **Faculty Dashboard:** Live metrics on enrolled students and course assignments.
 - **Assignment Publishing Center:** Create and publish assignments with titles, course codes, deadlines, weights, and detailed instructions.
 - **Enrolled Student Directory:** Real-time roster loaded directly from the database with search and batch information.
 - **Interactive Timetable Editor:** One-click slot editor to assign subjects, venues, lecturers, and color tags.
 
-### 3. 🛡️ System Administration
+### 3. System Administration
 - **Master User Directory:** Inspect and manage all user accounts (students, lecturers, admins).
 - **User Management:** Create new user accounts or delete accounts with full cascading database consistency.
 - **Database Control Center:** Live engine status, table counts, full JSON backup export, backup restoration, and demo reset.
 
-### 4. 🤖 AI Academic Copilot
+### 4. AI Academic Copilot
 - Integrated academic assistant powered by Google Gemini (customizable API key stored locally).
 - Quick prompt chips for data structures, normalization, and study scheduling.
 - Built-in intelligent academic fallback engine when offline or before configuring an API key.
 
 ---
 
-## 💾 Database Architecture
+## Database Architecture
 
 UniSync uses a **dual-engine database architecture**:
 
@@ -64,7 +64,7 @@ UniSync uses a **dual-engine database architecture**:
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ### 1. Running with Python SQLite Server (Recommended)
 
@@ -79,7 +79,7 @@ python3 server.py 8080
 ```
 
 Open your browser to:
-👉 **`http://localhost:8080`**
+**`http://localhost:8080`**
 
 ### 2. Running as a Static Web Application (IndexedDB)
 
@@ -87,7 +87,7 @@ Simply open `index.html` in any web browser, or serve it with any web server (II
 
 ---
 
-## 🔑 Demo Credentials
+## Demo Credentials
 
 | Role | User ID | Password | Name |
 | :--- | :--- | :--- | :--- |
@@ -102,7 +102,7 @@ Simply open `index.html` in any web browser, or serve it with any web server (II
 
 ---
 
-## 📦 REST API Endpoints
+## REST API Endpoints
 
 - `GET /api/health` — Check server status & database connection
 - `POST /api/auth/login` — Authenticate user credentials
