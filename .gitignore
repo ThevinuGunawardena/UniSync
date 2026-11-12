@@ -1,0 +1,15 @@
+# Security: Certificates & Private Keys
+*.pfx
+*.pem
+*.key
+*.crt
+*.cert
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Backups
+* - Copy.*
+* - Copy
+*.bak
